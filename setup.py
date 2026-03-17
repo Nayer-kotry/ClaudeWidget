@@ -624,14 +624,18 @@ write(APP_DIR / "ClaudeWidget.entitlements", """
     </plist>
 """)
 
-write(EXT_DIR / "ClaudeWidgetExtension.entitlements", """
+write(EXT_DIR / "ClaudeWidgetExtension.entitlements", f"""
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
         "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
     <dict>
         <key>com.apple.security.app-sandbox</key>
-        <false/>
+        <true/>
+        <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+        <array>
+            <string>{Path.home()}/.claude/</string>
+        </array>
     </dict>
     </plist>
 """)
