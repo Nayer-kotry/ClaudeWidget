@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABB000000000000CCDD0030 /* ClaudeWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000000000000CCDD0010 /* ClaudeWidgetApp.swift */; };
+		AABB000000000000CCDD0031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000000000000CCDD0011 /* ContentView.swift */; };
+		AABB000000000000CCDD0032 /* WidgetCenterBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000000000000CCDD0012 /* WidgetCenterBridge.swift */; };
+		AABB000000000000CCDD0033 /* ClaudeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB000000000000CCDD0013 /* ClaudeWidget.swift */; };
+		AABB000000000000CCDD0034 /* ClaudeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AABB000000000000CCDD0021 /* ClaudeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AABB000000000000CCDD0036 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = AABB000000000000CCDD0018 /* AppIcon.icns */; };
+		AABB000000000000CCDD0037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABB000000000000CCDD0019 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AABB000000000000CCDD0070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AABB000000000000CCDD0001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABB000000000000CCDD0061;
+			remoteInfo = ClaudeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AABB000000000000CCDD0043 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AABB000000000000CCDD0034 /* ClaudeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AABB000000000000CCDD0010 /* ClaudeWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeWidgetApp.swift; sourceTree = "<group>"; };
+		AABB000000000000CCDD0011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AABB000000000000CCDD0012 /* WidgetCenterBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCenterBridge.swift; sourceTree = "<group>"; };
+		AABB000000000000CCDD0013 /* ClaudeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeWidget.swift; sourceTree = "<group>"; };
+		AABB000000000000CCDD0014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABB000000000000CCDD0015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABB000000000000CCDD0016 /* ClaudeWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClaudeWidget.entitlements; sourceTree = "<group>"; };
+		AABB000000000000CCDD0017 /* ClaudeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClaudeWidgetExtension.entitlements; sourceTree = "<group>"; };
+		AABB000000000000CCDD0018 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		AABB000000000000CCDD0019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AABB000000000000CCDD0020 /* ClaudeWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaudeWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABB000000000000CCDD0021 /* ClaudeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClaudeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABB000000000000CCDD0041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABB000000000000CCDD0051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABB000000000000CCDD0002 = {
+			isa = PBXGroup;
+			children = (
+				AABB000000000000CCDD0004 /* ClaudeWidgetApp */,
+				AABB000000000000CCDD0005 /* ClaudeWidgetExtension */,
+				AABB000000000000CCDD0003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABB000000000000CCDD0003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABB000000000000CCDD0020 /* ClaudeWidget.app */,
+				AABB000000000000CCDD0021 /* ClaudeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABB000000000000CCDD0004 /* ClaudeWidgetApp */ = {
+			isa = PBXGroup;
+			children = (
+				AABB000000000000CCDD0010 /* ClaudeWidgetApp.swift */,
+				AABB000000000000CCDD0011 /* ContentView.swift */,
+				AABB000000000000CCDD0012 /* WidgetCenterBridge.swift */,
+				AABB000000000000CCDD0014 /* Info.plist */,
+				AABB000000000000CCDD0016 /* ClaudeWidget.entitlements */,
+				AABB000000000000CCDD0018 /* AppIcon.icns */,
+				AABB000000000000CCDD0019 /* Assets.xcassets */,
+			);
+			path = ClaudeWidgetApp;
+			sourceTree = "<group>";
+		};
+		AABB000000000000CCDD0005 /* ClaudeWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AABB000000000000CCDD0013 /* ClaudeWidget.swift */,
+				AABB000000000000CCDD0015 /* Info.plist */,
+				AABB000000000000CCDD0017 /* ClaudeWidgetExtension.entitlements */,
+			);
+			path = ClaudeWidgetExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABB000000000000CCDD0060 /* ClaudeWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABB000000000000CCDD0091 /* Build configuration list for PBXNativeTarget "ClaudeWidget" */;
+			buildPhases = (
+				AABB000000000000CCDD0040 /* Sources */,
+				AABB000000000000CCDD0041 /* Frameworks */,
+				AABB000000000000CCDD0042 /* Resources */,
+				AABB000000000000CCDD0043 /* Embed Foundation Extensions */,
+				AABB000000000000CCDD0100 /* Copy to ~/Applications */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AABB000000000000CCDD0071 /* PBXTargetDependency */,
+			);
+			name = ClaudeWidget;
+			productName = ClaudeWidget;
+			productReference = AABB000000000000CCDD0020 /* ClaudeWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AABB000000000000CCDD0061 /* ClaudeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABB000000000000CCDD0092 /* Build configuration list for PBXNativeTarget "ClaudeWidgetExtension" */;
+			buildPhases = (
+				AABB000000000000CCDD0050 /* Sources */,
+				AABB000000000000CCDD0051 /* Frameworks */,
+				AABB000000000000CCDD0052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClaudeWidgetExtension;
+			productName = ClaudeWidgetExtension;
+			productReference = AABB000000000000CCDD0021 /* ClaudeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABB000000000000CCDD0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AABB000000000000CCDD0060 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AABB000000000000CCDD0061 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AABB000000000000CCDD0090 /* Build configuration list for PBXProject "ClaudeWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABB000000000000CCDD0002;
+			productRefGroup = AABB000000000000CCDD0003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABB000000000000CCDD0060 /* ClaudeWidget */,
+				AABB000000000000CCDD0061 /* ClaudeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABB000000000000CCDD0042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB000000000000CCDD0036 /* AppIcon.icns in Resources */,
+				AABB000000000000CCDD0037 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABB000000000000CCDD0052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AABB000000000000CCDD0100 /* Copy to ~/Applications */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			inputFileListPaths = ();
+			inputPaths = ();
+			name = "Copy to ~/Applications";
+			outputFileListPaths = ();
+			outputPaths = ();
+			alwaysOutOfDate = 1;
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DEST=\"$HOME/Applications/$PRODUCT_NAME.app\"\nrm -rf \"$DEST\" 2>/dev/null || true\ncp -R \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app\" \"$DEST\"\nxattr -dr com.apple.quarantine \"$DEST\" 2>/dev/null || true\nkillall WidgetKitService 2>/dev/null || true\necho \"✓ Copied to ~/Applications\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABB000000000000CCDD0040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB000000000000CCDD0030 /* ClaudeWidgetApp.swift in Sources */,
+				AABB000000000000CCDD0031 /* ContentView.swift in Sources */,
+				AABB000000000000CCDD0032 /* WidgetCenterBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABB000000000000CCDD0050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB000000000000CCDD0033 /* ClaudeWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AABB000000000000CCDD0071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABB000000000000CCDD0061 /* ClaudeWidgetExtension */;
+			targetProxy = AABB000000000000CCDD0070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AABB000000000000CCDD0080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABB000000000000CCDD0081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AABB000000000000CCDD0082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CODE_SIGN_ENTITLEMENTS = ClaudeWidgetApp/ClaudeWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClaudeWidgetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.claudewidget;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = ClaudeWidget;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+		AABB000000000000CCDD0083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CODE_SIGN_ENTITLEMENTS = ClaudeWidgetApp/ClaudeWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClaudeWidgetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.claudewidget;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = ClaudeWidget;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+		AABB000000000000CCDD0084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ClaudeWidgetExtension/ClaudeWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClaudeWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.claudewidget.extension;
+				PRODUCT_NAME = ClaudeWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+		AABB000000000000CCDD0085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ClaudeWidgetExtension/ClaudeWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClaudeWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.claudewidget.extension;
+				PRODUCT_NAME = ClaudeWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABB000000000000CCDD0090 /* Build configuration list for PBXProject "ClaudeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB000000000000CCDD0080 /* Debug */,
+				AABB000000000000CCDD0081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABB000000000000CCDD0091 /* Build configuration list for PBXNativeTarget "ClaudeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB000000000000CCDD0082 /* Debug */,
+				AABB000000000000CCDD0083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABB000000000000CCDD0092 /* Build configuration list for PBXNativeTarget "ClaudeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB000000000000CCDD0084 /* Debug */,
+				AABB000000000000CCDD0085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABB000000000000CCDD0001 /* Project object */;
+}
