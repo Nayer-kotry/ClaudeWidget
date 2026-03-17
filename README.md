@@ -164,3 +164,11 @@ All data is local — `~/.claude/` on your own machine. Nothing is sent anywhere
 ## License
 
 Personal use. Claude and Claude Code are trademarks of Anthropic.
+
+## Screenshots
+
+<img width="352" height="191" alt="image" src="https://github.com/user-attachments/assets/6200692b-2ef7-4dc1-9cba-46a1152d6743" />
+<img width="170" height="180" alt="image" src="https://github.com/user-attachments/assets/e742cad2-7202-49d2-a9e2-968c10d36a2b" />
+
+
+
